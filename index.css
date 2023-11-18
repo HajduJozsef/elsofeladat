@@ -40,10 +40,6 @@ body{
     margin: auto;
 }
 
-.text{
-
-}
-
 .button{
     width: fit-content;
     background-color: black;
@@ -52,5 +48,5 @@ body{
     padding-inline: 1rem;
     padding-block: .75rem;
     border-radius: 16px;
-    
+
 }
