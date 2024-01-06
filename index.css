@@ -10,11 +10,11 @@
 }
 
 .galery2{
-    max-width: 1000px;
+    max-width: 700px;
     width: 100%;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
     margin-block: 2rem;
 
@@ -59,11 +59,24 @@ body{
 }
 
 .selection{
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     max-width: var(--max-section-w);
     margin-block: 2rem;
-    margin: auto;
+}
+.selection h1, .selection h3{
+    text-align:left;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: lowercase;
+    font-style: normal;
+
+}
+
+.selection h2{
+    text-align:left;
+    text-transform: lowercase;
+    font-style: normal;
 }
 
 .button{
